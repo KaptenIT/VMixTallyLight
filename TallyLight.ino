@@ -22,7 +22,7 @@ void setup()  {
   pinMode(green, OUTPUT);
   pinMode(D3, OUTPUT);
   Serial.begin(9600);
-  WiFiMulti.addAP("SuperZpeed", "Waszshakefs12#");  //Replace with SSID and PASSWORD of local wifi
+  WiFiMulti.addAP("SsID", "password");  //Replace with SSID and PASSWORD of local wifi
 
   while (WiFiMulti.run() != WL_CONNECTED)  {
     Serial.print(".");
